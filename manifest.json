@@ -8,6 +8,7 @@
     "description": "A new Project project.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
+    "compatibility_date": "2026-07-24",
     "icons": [
         {
             "src": "icons/Icon-192.png",
@@ -31,5 +32,9 @@
             "type": "image/png",
             "purpose": "maskable"
         }
-    ]
+    ],
+    "assets": {
+        "directory": "./build/web",
+        "not_found_handling": "single-page-application"
+    }
 }
